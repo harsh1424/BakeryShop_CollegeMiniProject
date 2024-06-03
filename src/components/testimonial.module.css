@@ -78,6 +78,7 @@
   
   .card {
     border: 1px solid #ccc0c0;
+    background-color: whitesmoke;
     border-radius: 5px;
     padding: 15px;
     margin-bottom: 10px;

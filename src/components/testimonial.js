@@ -23,7 +23,7 @@ const Testimonials = () => {
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify(feedback),
+      body: JSON.stringify({ text: feedback, best: false }),
     })
       .then((response) => response.json())
       .then((data) => {
@@ -45,9 +45,9 @@ useEffect(() => {
       for (const key in data) {
         fetchedFeedbacks.push({
           id: key,
-          name: data[key].name,
-          city: data[key].city,
-          feedback: data[key].feedback,
+          name: data[key].text.name,
+          city: data[key].text.city,
+          feedback: data[key].text.feedback,
         });
       }
       setFeedbacks(fetchedFeedbacks);

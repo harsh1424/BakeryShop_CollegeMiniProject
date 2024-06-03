@@ -9,6 +9,10 @@ import CartProvider from "./store/CartProvider";
 import Footer from "./components/footer";
 import About from "./components/about";
 import Testimonials from "./components/testimonial";
+import Recipe from "./components/recipe";
+// import Products from "./components/Products";
+import ShopsPage from "./components/Shop";
+import Products from "./components/Product2";
 
 
 function App() {
@@ -31,6 +35,9 @@ function App() {
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
       <Route path="/testimonial" element={<Testimonials />} />
+      <Route path="/recipe" element={<Recipe />} />
+      <Route path="/products" element={<Products/>} />
+      <Route path="/shops" element={<ShopsPage/>} />
     </Routes>
      
     <Footer />

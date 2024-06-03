@@ -5,7 +5,9 @@
     /* position: relative; */
     z-index: -1
 }
-
+.link{
+  text-decoration: underline black;
+}
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -60,9 +62,9 @@
   
 
 .text p{
-    font-family: 'Fasthand', cursive;
-    font-size: 35px;
-    font-weight: 600;
+  font-family:monospace;
+  font-size: 35px;
+    font-weight: 700;
     color: rgb(61, 8, 8);
 }
 

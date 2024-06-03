@@ -1,10 +1,14 @@
 import React from "react";
 import Main from "./components/Main";
-import Products from "./components/Products";
+import BestSelling from "./components/BestSellingItem";
+import BestReviews from "./components/BestReviews";
+// import Products from "./components/Products";
 const Home = ()=>{
     return <>
     <Main/>
-    <Products/>
+    <BestSelling/>
+    <BestReviews />
+    {/* <Products/> */}
     </>
 }
 
