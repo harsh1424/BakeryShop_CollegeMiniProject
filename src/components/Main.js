@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from 'react-router-dom';
 
 import styles from "./Main.module.css";
-import cake from "../assets/cake.png";
+import cake from "../assets/logo-color.png";
 
 const Main = () => {
     return (
@@ -14,7 +14,7 @@ const Main = () => {
                     <div className={styles.contentWrapper}>
                         <img src={cake} alt="Image 1" />
                         <div className={styles.text}>
-                        <Link className={styles.link} to="/shops"><p>Cake Shops</p></Link>
+                        <Link className={styles.link} to="/shops"><p>Offline Stores</p></Link>
                             <span>Have any query ordering online you can also order by visiting our shop, Click here to have a look at shop list</span>
                         </div>
                     </div>
