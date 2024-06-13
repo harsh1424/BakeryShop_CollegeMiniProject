@@ -21,17 +21,17 @@
   color: #3b2116;
 
 }
-  /* @media (max-width: 600px) {
+  @media (max-width: 600px) {
     .header {
       padding: 0 5%;
     }
   }
   
   /* Add media query for screens smaller than 400px */
-   /* @media (max-width: 400px) {
+    @media (max-width: 400px) {
     .header {
       flex-direction: column;
       height: auto;
       padding: 1rem;
     }
-  }  */
+  } 

@@ -100,14 +100,16 @@
   
   @media only screen and (max-width: 480px) {
     .productHeading {
-      margin-top: 300px;
+      margin-top: 400px;
     }
   
     .cardContainer {
-      width: 90%;
+      /* width: 90%; */
+      grid-template-columns: repeat(1, 1fr);
     }
   
     .card {
       width: 100%;
+      /* margin-right: 20px; */
     }
   }

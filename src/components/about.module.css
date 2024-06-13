@@ -1,0 +1,30 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 75px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Section styles */
+  .section {
+    margin-bottom: 40px;
+  }
+  
+  /* Heading styles */
+  .heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Paragraph styles */
+  .paragraph {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  @media only screen and (max-width: 480px){
+    .container{
+      margin-top: 250px;
+    }
+  }
